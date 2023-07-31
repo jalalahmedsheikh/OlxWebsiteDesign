@@ -1,0 +1,440 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Helvetica,sans-serif;
+}
+nav{
+    background-color: rgb(240, 240, 240);
+    height:  110px;
+    width:100%;
+    top: 0;
+    position: sticky;
+    z-index: 6;
+    position: fixed;
+}
+header{
+    height:  110px;
+    width:100%;
+    top: 0;
+    position: sticky;
+    z-index: 6;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    height:  40px;
+    width: 100%;
+    font-size: 0.90rem;
+}
+.logo-sec{
+    width: 60px;
+    height: 40px;
+    margin-left: 350px;
+}
+.logo{
+    background-image: url(images/OLX-Logo11.png);
+    background-size: cover;
+    width: 40px;
+    height: 25px;
+    padding-right: 10px;
+    margin-top: 6px;
+}
+.motors{
+    width: 100px;
+    height: 30px;
+    padding-left: 15px
+}
+.mot-img{
+    background-image: url(images/car-line.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.property{
+    width: 110px;
+    height: 30px;
+    padding-left: 15px
+}
+.prop-img{
+    background-image: url(images/building-line.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.header1 a{
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
+}
+.header1 a:hover{
+    color: rgb(0, 119, 223);
+}
+.header2{
+    display: flex;
+    align-items: center;
+}
+.dropdown-sec2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 290px;
+    padding-left: 25px;
+}
+.logo-sec2{
+    width: 60px;
+    height: 40px;
+    margin-left: 350px;
+}
+.logo2{
+    background-image: url(images/olx_logo.png);
+    background-size: cover;
+    width: 50px;
+    height: 35px;
+    padding-right: 10px;
+    margin-top: 6px;
+}
+.dropdown-cn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.dd-logo-sec{
+    height: 50px;
+    width: 290px;
+}
+.dd-logo{
+    background-image: url(images/icons/search.png);
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+}
+.dropicon{
+    background-image: url(images/icons/down-arrow.png);
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+}
+.dropdown-sec2 p{
+    width: 185px;
+    color: rgb(88, 88, 88);
+    margin-left: 10px;
+    text-align: left;
+}
+.search{
+    background-color: #002f34;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 520px;
+}
+.srch-btn{
+    background-image: url(images/icons/srch.png);
+    background-size: cover;
+    margin-left: 9px;
+    height: 30px;
+    width: 30px;
+}
+.lgn-sll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    margin-bottom: 40px;
+}
+b{
+    font-size: 1rem;
+    margin-left: 40px;
+    color: black;
+}
+.sale{
+    background-image: url(images/sellicon.png);
+    background-size: cover;
+    margin-left: 15px;
+    width: 80px;
+    height: 38px;
+}
+.sale:hover{
+    cursor: pointer;
+}
+.card-body{
+    margin: 10px 10px 0px 10px;
+}
+.olx-bnr{
+    display: flex;
+    justify-content: center;
+}
+.products{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+    height: 320px;
+    width: 225px;
+    border: 1px solid rgb(80, 80, 80);
+    border-radius: 8px; 
+    margin: 0px 35px 0px 35px;   
+}
+.card-img1{
+    background-image: url(images/imgg1.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img2{
+    background-image: url(images/imgg2.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img3{
+    background-image: url(images/imgg3.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img4{
+    background-image: url(images/imgg4.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img5{
+    background-image: url(images/imgg5.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img6{
+    background-image: url(images/imgg6.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img7{
+    background-image: url(images/imgg7.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img8{
+    background-image: url(images/imgg8.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img9{
+    background-image: url(images/imgg9.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img10{
+    background-image: url(images/imgg10.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img11{
+    background-image: url(images/imgg11.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.card-img12{
+    background-image: url(images/imgg12.jpg);
+    background-size: cover;
+    border-radius: 8px 8px 0px 0px ;
+    height: 160px;
+    width: 225px;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+                                                                              /* Dropdown Button */
+.dropbtn {
+    background-color: #fcfcfc00;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+.cate-container{
+    display: flex;
+    justify-content: left;
+    margin-left: 380px;
+}  
+.cats-s{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0px 10px 0 10px;
+}
+.cats-s a{
+    padding: 0px 10px 0 10px;
+}
+.cats-s a:hover{
+    font-size: 16px;
+    cursor: pointer;
+    color: #3e8e41;
+}
+.all-cats{
+     margin-left: 360px;
+}
+.allcats{
+    text-align: center;
+    padding-right: 50px;
+}
+.allcats img{
+    height: 85px;
+    width: 85px;
+}
+.row1{
+    display: flex;
+    height: 98px;
+    width: 1250px;
+    display: flex;
+}
+.row2{
+    display: flex;
+    justify-content: left;
+
+}
+.btt{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.btt a{
+    background-color: #ebeeef;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.ftr1-container{
+    background-color: rgba(0,47,52,.03);
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ftr-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.figm{
+    padding-right: 0px;
+}
+.ftr1-txt{
+    max-width: 305px;
+    margin: 30px 60px 0px 40px;
+    
+}
+.ftr1-txt h2{
+    font-weight: bolder;
+}
+.ftr1-applink{
+    margin-top: 50px;
+    max-width: 300px;
+    max-height: 200px;
+}
+.ftr1-applink{
+    max-width: 300px;
+}
+.ftr1-applink-imgs{
+    display: flex;
+    margin-top: 20px;
+    justify-content: left;
+    align-items: center;
+}
+.ftr1-applink-imgs img{
+    margin-right: 10px;
+    width: 120px;
+    height: 40px;
+}
+.ftr2-container{
+    background-color: #ebeeef;
+    height: 199px;
+    width: 100%;
+}
+.ftr2-container h4{
+    font-size: small;
+}
+.ftr2-row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.fs-imgs img{
+    width: 25px;
+    margin-right: 3px;
+}
+.f2-applink-imgs{
+    display: flex;
+    justify-content: left;
+}
+.f2-applink-imgs img{
+    width: 80px;
+    margin: 35px 10px 0px 0px;
+}
+.ftr3-container{
+    width: 100%;
+    height: 50px;
+    background-color: #002f34;
+}
+.ftr3-copyright{
+    display: flex;
+    justify-content: end;
+    padding: 15px 180px;
+    color: white;
+}
+.ftr3-copyright p{
+    font-size: smaller;
+}
