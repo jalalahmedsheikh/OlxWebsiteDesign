@@ -324,7 +324,16 @@ b{
     text-align: center;
     padding-right: 50px;
 }
+.allcats-r2{
+    text-align: center;
+    padding-right: 40px;
+    max-width: 99px;
+}
 .allcats img{
+    height: 85px;
+    width: 85px;
+}
+.allcats-r2 img{
     height: 85px;
     width: 85px;
 }
@@ -332,7 +341,6 @@ b{
     display: flex;
     height: 98px;
     width: 1250px;
-    display: flex;
 }
 .row2{
     display: flex;
